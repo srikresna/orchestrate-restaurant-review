@@ -1,9 +1,9 @@
 FROM tensorflow/serving:latest
 
-COPY ./serving_model_dir /models/cc-model
+COPY ./serving_model_dir /models/review-model
 COPY ./config /model_config
 
-ENV MODEL_NAME=cc-model 
+ENV MODEL_NAME=review-model 
 ENV MONITORING_CONFIG="/model_config/prometheus.config"
 ENV PORT=8501
 
