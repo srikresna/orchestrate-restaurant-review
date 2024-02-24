@@ -1,6 +1,8 @@
 FROM tensorflow/serving:latest
 
-COPY ./serving_model_dir /models/review-model
+RUN mkdir -p /models/review-model/1
+
+COPY ./serving_model_dir /models/review-model/1
 COPY ./config /model_config
 
 ENV MODEL_NAME=review-model 
