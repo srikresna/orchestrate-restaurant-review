@@ -2,7 +2,7 @@ FROM tensorflow/serving:latest
 
 RUN mkdir -p /models/review-model/1
 
-COPY ./serving_model_dir /models/review-model/1
+COPY ./serving_model_dir/restaurant-review-model/1708251542 /models/review-model/1
 COPY ./config /model_config
 
 ENV MODEL_NAME=review-model 
