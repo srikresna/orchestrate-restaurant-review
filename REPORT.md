@@ -1,8 +1,4 @@
-# Submission 1: Machine Learning Pipeline - Restaurant Review CLassification
-Nama: Sri Kresna Maha Dewa
-
-Username dicoding: Sri Kresna Maha Dewa
-
+Restaurant Review CLassification
 
 | | Deskripsi |
 | ----------- | ----------- |
